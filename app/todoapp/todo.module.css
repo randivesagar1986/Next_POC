@@ -1,0 +1,25 @@
+.main{
+    margin:15px 0px 25px 15px;
+    position: relative;
+}
+.titleMain{
+    position: absolute;
+    bottom: 15px;
+    left: 110px;
+}
+.assignTitle{
+    margin:0px 0px 10px 0px;
+}
+.todo{
+    margin:0px 0px 30px 15px;
+    background-color: aliceblue;
+    /* box-sizing: border-box; */
+    padding: 10px 0px 10px 10px;
+    width:80%;
+}
+.taskTitle{
+    margin:0px 0px 10px 0px;
+}
+.assign{
+    padding-left: 20px;
+}
