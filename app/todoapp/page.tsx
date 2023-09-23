@@ -25,7 +25,7 @@ const TodoApp = async () => {
                     <h5>Total Tasks : <span>{result?.total}</span></h5>
                 </div>
             </div>
-            {/* <FilterComp isServer={true} resultCount={result?.resultCount}/> */}
+            <FilterComp isServer={true} resultCount={result?.resultCount}/>
             {
                 (!resTodo) ? <span>You have not assigned any task</span> : resTodo.map((task: any) => {
                     return (
